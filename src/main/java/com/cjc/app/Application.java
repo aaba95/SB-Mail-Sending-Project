@@ -12,6 +12,16 @@ public class Application {
 System.out.println("m1 method...");
 }     
 
+       public void oddno() {
+    	   int num=15;
+    	   if(num%2!=0) {
+    		   System.out.println("Number is odd");
+    	   }
+    	   else {
+    		   System.out.println("Number is even ");
+    	   }
+       }
+       
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
